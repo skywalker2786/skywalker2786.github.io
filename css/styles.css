@@ -1,1 +1,211 @@
 
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 5rem;
+    font-weight: 900;
+    
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title{
+    background-color: #343a40;
+    color: #e6e6e6;
+}
+
+/*font-family: 'Ubuntu', sans-serif;*/
+
+.container-fluid{
+    padding: 3% 10% 3% 10%;
+}
+
+.sitebrand{
+    font-size: 2.5rem;
+    padding-left: 4rem;
+}
+
+.sitenavlinks{
+    font-size: 1.35rem;
+    padding-right: 4rem;
+}
+
+.navbar-item{
+    margin: auto 0.5rem;
+}
+
+.navbar{
+    padding-top: 2.5rem;
+    padding-bottom: 1.6rem;
+}
+
+.front-text{
+    margin-top: 2.5rem;
+}
+
+.iphone-img{
+    padding: 0.5rem 6rem;
+    width: 72%;
+    transform: rotate(25deg);
+}
+
+.downloadbtn{
+    width: 13rem;
+    height: 4rem;
+    font-size: 1.5rem;
+    margin: 8% 2%;
+}
+
+#features-sec{
+    margin: 10% 10% 7%;
+    background-color: white;
+    
+}
+
+.card{
+    border: 0px;
+    text-align: center;
+}
+
+.card-title{
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.card-text{
+    font-size: 1.35rem;
+    font-weight: 400;
+    color: #7f7f7f;
+}
+
+.cardicons{
+    margin-bottom: 3rem;
+    width: 40%;
+}
+
+.feature-body:hover{
+    background-color: #dfdfdf;
+}
+
+#testimonials{
+    text-align: center;
+    background-color: #343a40;
+    color: #e6e6e6;
+}
+
+.carousel-item{
+    padding: 9% 15% 6.5%;
+}
+
+.testimonial-text{
+    width:75%;
+    font-size: 3rem;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 3rem 1rem;
+}
+
+#press{
+    background-color: #343a40;
+    color: #e6e6e6;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-image{
+    margin: 3% 3%;
+    width: 15%;
+}
+
+#pricing{
+    padding: 7% 12%;
+}
+
+.pricing-card{
+    padding: auto 3%;
+    margin: auto 7% ;
+}
+
+.pricing-header{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.pricing-text{
+    text-align: center;
+    font-size: 1.35rem;
+    font-weight: 400;
+    color: #7f7f7f;
+}
+
+#cta{
+    background-color: #343a40;
+    color: #e6e6e6;
+    text-align: center;
+    padding:6% 15% 7%;
+}
+
+.cta-text{
+    font-size: 4rem;
+    font-weight: 500;
+}
+
+#footer{
+    font-size: 1.15rem;
+    text-align: center;
+    margin: 4% auto 3%;
+}
+
+.social-links{
+    text-align: center;
+    margin: 0 auto 1.5%;
+}
+
+.link-tabs{
+    margin: auto 0.5rem;
+    width: 2rem;
+}
+
+@media (max-width:767px){
+    h1{
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .front-text{
+        text-align: center;
+    }
+
+    .downloadbtn{
+        width: 8rem;
+        height: 3rem;
+        font-size: 1rem;
+        margin: 3% 2%;
+    }
+
+    .cardicons{
+        width: 25%;
+    }
+
+    .testimonial-text{
+        font-size: 2rem;
+    }
+
+    .carousel-item{
+        font-size: 1.15rem;
+    }
+
+    #cta{
+        padding: 6% 10%;
+    }
+
+    .cta-text{
+        font-size: 2.5rem;
+    }
+
+}
