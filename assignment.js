@@ -1,0 +1,10 @@
+let userInput=30;
+let result;
+let conclusion;
+result=userInput+18;
+result=result-12;
+result=result*12;
+result=result/12;
+conclusion=`Modifying the result var(${result}) didnt affect the userimput var (${userInput})`;
+alert("hello");
+alert(conclusion);
